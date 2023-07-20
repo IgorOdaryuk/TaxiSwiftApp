@@ -12,6 +12,7 @@
 		A44D57062A69ABC100087635 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A44D57052A69ABC100087635 /* Preview Assets.xcassets */; };
 		A44D57142A69AC6700087635 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44D57132A69AC6700087635 /* HomeView.swift */; };
 		A44D57162A69ACF500087635 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44D57152A69ACF500087635 /* UberMapViewRepresentable.swift */; };
+		A44D57192A69D01B00087635 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44D57182A69D01B00087635 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A44D57052A69ABC100087635 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A44D57132A69AC6700087635 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A44D57152A69ACF500087635 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
+		A44D57182A69D01B00087635 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		A44D57102A69AC2D00087635 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				A44D57182A69D01B00087635 /* LocationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A44D57192A69D01B00087635 /* LocationManager.swift in Sources */,
 				A44D56FF2A69ABC000087635 /* TaxiAppApp.swift in Sources */,
 				A44D57162A69ACF500087635 /* UberMapViewRepresentable.swift in Sources */,
 				A44D57142A69AC6700087635 /* HomeView.swift in Sources */,
@@ -330,6 +334,8 @@
 				DEVELOPMENT_TEAM = YTVX2Y5R7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to get your location to quick find the car between your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,6 +365,8 @@
 				DEVELOPMENT_TEAM = YTVX2Y5R7P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to get your location to quick find the car between your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
