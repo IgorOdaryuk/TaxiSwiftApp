@@ -24,7 +24,7 @@ struct HomeView: View {
                     }
             }
             
-            MapViewActionButton()
+            MapViewActionButton(showLocationSearchView: $showLocationSearchView)
                 .padding(.leading)
                 .padding(.top, 4)
         }
