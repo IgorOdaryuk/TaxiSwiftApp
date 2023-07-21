@@ -8,8 +8,12 @@ import SwiftUI
 import MapKit
 
 struct UberMapViewRepresentable: UIViewRepresentable {
+    
     let mapView = MKMapView()
     let locationmanager = LocationManager()
+    @EnvironmentObject var locationViewModel: LocationSearchViewModel
+    
+    
     func makeUIView(context: Context) -> some UIView {
         mapView.delegate = context.coordinator
         mapView.isRotateEnabled = false
@@ -20,7 +24,9 @@ struct UberMapViewRepresentable: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIViewType, context: Context) {
-        
+        if let coordinate = locationViewModel.selectedLocationCoordinate {
+            print("DEBUG: Selected location in map view \(coordinate)")
+        }
     }
     
     func makeCoordinator() -> MapCoordinator {
