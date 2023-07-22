@@ -22,6 +22,7 @@
 		A4B15D3C2A6BDC6800938688 /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B15D3B2A6BDC6800938688 /* RideRequestView.swift */; };
 		A4B15D3E2A6C020800938688 /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B15D3D2A6C020800938688 /* RideType.swift */; };
 		A4B15D402A6C3C3E00938688 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B15D3F2A6C3C3E00938688 /* Double.swift */; };
+		A4B15D422A6C401200938688 /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B15D412A6C401200938688 /* UberLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		A4B15D3B2A6BDC6800938688 /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
 		A4B15D3D2A6C020800938688 /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
 		A4B15D3F2A6C3C3E00938688 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		A4B15D412A6C401200938688 /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				A4213F9F2A6B137C00B14A40 /* MapViewsState.swift */,
 				A4B15D3D2A6C020800938688 /* RideType.swift */,
+				A4B15D412A6C401200938688 /* UberLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				A44D56FF2A69ABC000087635 /* TaxiAppApp.swift in Sources */,
 				A44D57162A69ACF500087635 /* UberMapViewRepresentable.swift in Sources */,
 				A4213FA02A6B137C00B14A40 /* MapViewsState.swift in Sources */,
+				A4B15D422A6C401200938688 /* UberLocation.swift in Sources */,
 				A44D57142A69AC6700087635 /* HomeView.swift in Sources */,
 				A4213F942A6A71CF00B14A40 /* LocationSearchActivationView.swift in Sources */,
 				A4B15D3E2A6C020800938688 /* RideType.swift in Sources */,
